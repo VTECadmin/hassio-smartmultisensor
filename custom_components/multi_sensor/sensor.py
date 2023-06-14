@@ -185,7 +185,7 @@ async def async_get_device_groups(deviceUpdateGroups, async_add_entities, device
   
 
 class MultisensorUpdateGroup:
-    """Representation of Hildebrand Glow MQTT Meter Sensors that all get updated together."""
+   
 
     def __init__(self, device_id: str, topic_regex: str, meters: Iterable) -> None:
         """Initialize the sensor collection."""
